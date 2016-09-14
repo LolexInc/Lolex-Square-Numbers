@@ -13,3 +13,4 @@ env:
 install:
  - pip install -q Django=$DJANGO_VERSION
  - python SquarensquareCI.py -q run
+script: nosetests
