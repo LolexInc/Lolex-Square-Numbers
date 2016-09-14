@@ -1,7 +1,4 @@
 import sys,os,subprocess,io,time
-
-    
-import squarenumber
 squarenumbers = 2
 originsquare = 2
 gone = 0
