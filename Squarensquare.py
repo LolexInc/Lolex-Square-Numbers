@@ -4,11 +4,8 @@ sys.path.insert(0,"\\")
 try:
     import squarenumber
 except(ImportError):
-    with io.FileIO("squarenumber.py","w"):
-        pass
     with open ("squarenumber.py","a") as f: f.write("squarenumbers = 2\noriginsquare = 2")
     subprocess.call("Squarensquare.py",shell = True)
-    
 import squarenumber
 squarenumbers = squarenumber.squarenumbers
 originsquare = squarenumber.originsquare
